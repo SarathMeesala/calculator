@@ -1,0 +1,164 @@
+.main-container {
+    background-color: bisque;
+}
+.container {
+
+    border: 1px solid #cccccc;
+
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    top: 55%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+
+    height: 500px;
+    background-color:lavender;
+
+}
+
+.keys {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+    padding: 10px;
+
+    margin:auto;
+
+}
+
+.button {
+
+    height: 60px;
+
+    padding: 5px;
+
+    background-color: #fff;
+
+    border-radius: 3px;
+
+    border: 2px solid #c4c4c4;
+
+    background-color: transparent;
+
+    font-size: 24px;
+
+    color: #333;
+
+  
+    /*text-shadow: 0 1px rgba(255,255,255,.4);*/
+
+}
+
+.button:hover {
+
+    background-color: #eaeaea;
+
+}
+
+.operator {
+    
+    height: 60px;
+    color: #fff;
+
+    background-color: navy;
+    border: 2px solid #c4c4c4;
+
+}
+.operator:hover{
+   background-color: black;
+}
+
+.clear {
+
+    background-color: brown;
+
+    border-color: blanchedalmond;
+
+    color: #fff;
+    margin-left: 10px;
+
+    width: 80px;
+
+    height: 35px;  
+
+}
+.backspace {
+
+    background-color: brown;
+
+    border-color: blanchedalmond;
+
+    color: #fff;
+    margin-left: 10px;
+
+    width: 80px;
+
+    height: 35px;  
+
+}
+
+.clear:hover {
+
+    background-color: burlywood;
+
+}
+.backspace:hover {
+
+    background-color: burlywood;
+
+}
+
+
+.equal-sign {
+
+    background-color: transparent;
+
+    border-color: #c4c4c4;
+    color: black;
+
+}
+
+.equal-sign:hover {
+
+    background-color: white;
+
+}
+
+.screen{
+
+    background-color:darkolivegreen;
+
+    justify-content: left;
+
+    color: white;
+
+    font-size: medium;
+
+    width: 50%;
+
+    height: 30%;
+
+    cursor: default;
+
+    padding: 10px; 
+
+    padding-left: 40%;
+
+    margin: auto;
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+
+}
